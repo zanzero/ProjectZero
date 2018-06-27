@@ -1,0 +1,18 @@
+a = input('Text OR Command: ')
+while a not in ('exit', 'Exit'):
+    a = a.replace("e", "3")
+    a = a.replace("E", "3")
+    a = a.replace("O", "0")
+    a = a.replace("o", "0")
+    a = a.replace("i", "1")
+    a = a.replace("I", "1")
+    a = a.replace("a", "@")
+    a = a.replace("A", "4")
+    a = a.replace('B', 'l3')
+    a = a.replace('R', 'l2')
+    print('=======>: ', a)
+    a = input('Text OR Command: ')
+
+print('Goodbye! Commander.')
+input()
+exit(0)
